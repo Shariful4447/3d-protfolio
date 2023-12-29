@@ -63,13 +63,13 @@ const ProjectCard = ({
           ))}
         </div>
       </Tilt> */}
-      <div className="card card-compact w-96 bg-base-100 shadow-xl">
-        <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+      <div className="card bg-tertiary card-compact w-96 bg-base-100 gap-10 shadow-xl justify-center">
+        <figure><img src={image} alt="Shoes" /></figure>
         <div className="card-body">
-          <h2 className="card-title">Shoes!</h2>
-          <p>If a dog chews shoes whose shoes does he choose?</p>
+          <h2 className="card-title">{name}</h2>
+          <p>{description}</p>
           <div className="card-actions justify-end">
-            <button className="btn btn-primary">Buy Now</button>
+            <button className="btn btn-primary bg-tertiary ">Visit Live</button>
           </div>
         </div>
       </div>
@@ -88,7 +88,7 @@ const Works = () => {
       <div className='w-full flex'>
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
+          className='mt-3 text-secondary text-[17px] w-full leading-[30px]'
         >
           Following projects showcases my skills and experience through
           real-world examples of my work. Each project is briefly described with
