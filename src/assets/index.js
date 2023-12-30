@@ -20,7 +20,9 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
+import sebpo_logo from "./sebpo_logo.png";
+import winwin from "./winwin.png";
+import daffodil from "./daffodil.png";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -59,4 +61,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  sebpo_logo,
+  winwin,
+  daffodil,
 };
