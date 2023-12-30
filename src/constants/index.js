@@ -3,6 +3,7 @@ import {
   backend,
   creator,
   web,
+  
   javascript,
   typescript,
   html,
@@ -47,7 +48,7 @@ const services = [
   },
   {
     title: "Back-End Web Development",
-    icon: web,
+    icon: backend,
   },
   {
     title: "UI Designer",
