@@ -1,5 +1,6 @@
 import React from "react";
 // import Tilt from "react-tilt";
+import Tilt from 'react-parallax-tilt';
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -18,7 +19,7 @@ const ProjectCard = ({
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-      {/* <Tilt
+      <Tilt
         options={{
           max: 45,
           scale: 1,
@@ -49,7 +50,7 @@ const ProjectCard = ({
 
         <div className='mt-5'>
           <h3 className='text-white font-bold text-[24px]'>{name}</h3>
-          <p className='mt-2 text-secondary text-[14px]'>{description}</p>
+          <p className='mt-2 text-secondary text-[14px]'>{description} <a href="">see more..</a> </p>
         </div>
 
         <div className='mt-4 flex flex-wrap gap-2'>
@@ -62,17 +63,8 @@ const ProjectCard = ({
             </p>
           ))}
         </div>
-      </Tilt> */}
-      <div className="card bg-tertiary card-compact w-96 bg-base-100 gap-10 shadow-xl justify-center">
-        <figure><img src={image} alt="Shoes" /></figure>
-        <div className="card-body">
-          <h2 className="card-title">{name}</h2>
-          <p>{description}</p>
-          <div className="card-actions justify-end">
-            <button className="btn btn-primary bg-tertiary ">Visit Live</button>
-          </div>
-        </div>
-      </div>
+      </Tilt>
+
     </motion.div>
   );
 };
