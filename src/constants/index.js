@@ -21,8 +21,8 @@ import {
   daffodil,
   tesla,
   shopify,
-  carrent,
   jobit,
+  Eshop,
   tripguide,
   threejs,
   sebpo_logo,
@@ -200,25 +200,21 @@ const experiences = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "ESHOP",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web application that enables users to complete shopping, finding best sale option.More Faster and reliebale design",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
         name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: Eshop,
+    source_code_link: "https://github.com/Shariful4447/EShop-React-Tailwind",
   },
   {
     name: "Job IT",

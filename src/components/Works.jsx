@@ -51,7 +51,7 @@ const ProjectCard = ({
         <div className='mt-5'>
           <h3 className='text-white font-bold text-[24px]'>{name}</h3>
           <p className='mt-2 text-secondary text-[14px]'>{description} </p>
-          <p><a className="text-white" href="">Visit Live</a></p>
+          <p><a className="text-white" href="https://e-shop-0.netlify.app/">Visit Live</a></p>
         </div>
 
         <div className='mt-4 flex flex-wrap gap-2'>
