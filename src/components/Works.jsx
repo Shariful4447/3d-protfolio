@@ -16,6 +16,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  live_link,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -44,6 +45,18 @@ const ProjectCard = ({
                 alt='source code'
                 className='w-1/2 h-1/2 object-contain'
               />
+              
+            </div>
+            <div
+              onClick={() => window.open(live_link, "_blank")}
+              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+            >
+              <img
+                src={github}
+                alt='source code'
+                className='w-1/2 h-1/2 object-contain'
+              />
+              
             </div>
           </div>
         </div>
@@ -51,7 +64,12 @@ const ProjectCard = ({
         <div className='mt-5'>
           <h3 className='text-white font-bold text-[24px]'>{name}</h3>
           <p className='mt-2 text-secondary text-[14px]'>{description} </p>
-          <p><a className="text-white" href="https://e-shop-0.netlify.app/">Visit Live</a></p>
+          
+        </div>
+        <div className="mt-2"
+          onClick={() => window.open(live_link, "_blank")}
+        >
+          <p className="text-white">Visit Live</p>
         </div>
 
         <div className='mt-4 flex flex-wrap gap-2'>

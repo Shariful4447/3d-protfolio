@@ -26,6 +26,7 @@ import {
   tripguide,
   threejs,
   sebpo_logo,
+  dashboard,
 } from "../assets";
 
 export const navLinks = [
@@ -215,6 +216,7 @@ const projects = [
     ],
     image: Eshop,
     source_code_link: "https://github.com/Shariful4447/EShop-React-Tailwind",
+    live_links:"",
   },
   {
     name: "Job IT",
@@ -236,27 +238,33 @@ const projects = [
     ],
     image: jobit,
     source_code_link: "https://github.com/",
+    live_links:"",
   },
   {
-    name: "Trip Guide",
+    name: "Admin Dashboard",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A responsive admin dashboard for user interaction which provides smooth functionality for and ease of use",
     tags: [
       {
-        name: "nextjs",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "NodeJs",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "MaterialUi",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: dashboard,
+    source_code_link: "https://github.com/Shariful4447/react-admin-pannel-with-vite",
+    live_links: "https://admin-panel-shariful-islam.netlify.app/",
   },
   {
     name: "Bumbam",
@@ -278,6 +286,7 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://github.com/",
+    live_links:"",
   },
 ];
 
