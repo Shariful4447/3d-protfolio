@@ -19,6 +19,7 @@ const ProjectCard = ({
   live_link,
 }) => {
   return (
+    
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
         options={{
@@ -66,11 +67,7 @@ const ProjectCard = ({
           <p className='mt-2 text-secondary text-[14px]'>{description} </p>
           
         </div>
-        <div className="mt-2"
-          onClick={() => window.open(live_link, "_blank")}
-        >
-          <p className="text-white">Visit Live</p>
-        </div>
+
 
         <div className='mt-4 flex flex-wrap gap-2'>
           {tags.map((tag) => (
@@ -113,7 +110,9 @@ const Works = () => {
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
+
       </div>
+      
     </>
   );
 };

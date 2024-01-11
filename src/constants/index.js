@@ -216,7 +216,7 @@ const projects = [
     ],
     image: Eshop,
     source_code_link: "https://github.com/Shariful4447/EShop-React-Tailwind",
-    live_links:"",
+    live_link: "https://github.com/",
   },
   {
     name: "Job IT",
@@ -238,7 +238,7 @@ const projects = [
     ],
     image: jobit,
     source_code_link: "https://github.com/",
-    live_links:"",
+    live_link: "https://github.com/",
   },
   {
     name: "Admin Dashboard",
@@ -264,7 +264,7 @@ const projects = [
     ],
     image: dashboard,
     source_code_link: "https://github.com/Shariful4447/react-admin-pannel-with-vite",
-    live_links: "https://admin-panel-shariful-islam.netlify.app/",
+    live_link: "https://admin-panel-shariful-islam.netlify.app/",
   },
   {
     name: "Bumbam",
@@ -286,7 +286,7 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://github.com/",
-    live_links:"",
+    live_link: "https://github.com/",
   },
 ];
 
