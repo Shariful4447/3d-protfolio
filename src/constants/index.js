@@ -27,6 +27,7 @@ import {
   threejs,
   sebpo_logo,
   dashboard,
+  Donation,
 } from "../assets";
 
 export const navLinks = [
@@ -216,7 +217,29 @@ const projects = [
     ],
     image: Eshop,
     source_code_link: "https://github.com/Shariful4447/EShop-React-Tailwind",
-    live_link: "https://github.com/",
+    live_link: "https://e-shop-0.netlify.app/",
+  },
+  {
+    name: "Donation Campaigner",
+    description:
+      "Web application that enables users to collect donation for helpless people.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "SPA",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: Donation,
+    source_code_link: "https://github.com/Shariful4447/Donation-Collector-React",
+    live_link: "https://donation-collecter.netlify.app/",
   },
   {
     name: "Job IT",
