@@ -28,6 +28,7 @@ import {
   sebpo_logo,
   dashboard,
   Donation,
+  MusicPlayer,
 } from "../assets";
 
 export const navLinks = [
@@ -290,9 +291,9 @@ const projects = [
     live_link: "https://admin-panel-shariful-islam.netlify.app/",
   },
   {
-    name: "Bumbam",
+    name: "Music Player Sorter",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A comprehensive Music Player sorter for playing music, its a frontend design platform that allows users to play music.",
     tags: [
       {
         name: "nextjs",
@@ -307,9 +308,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-    live_link: "https://github.com/",
+    image: MusicPlayer,
+    source_code_link: "https://github.com/Shariful4447/movie-cafe-react-and-tailwind",
+    live_link: "hhttps://musicplayersorter.netlify.app/",
   },
 ];
 
